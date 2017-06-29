@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<title>code</title>
+
+<style>
+  p {
+    background: blue;
+    padding: 20px;
+  }
+</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script>
+
+$(document).ready(function(){
+  
+  
+  $( "#toggleContent" ).click(function() {
+  
+    
+    $( "p" ).fadeToggle( 2000 );
+    
+  });
+
+});
+</script>
+<button id="toggleContent">Watch boss!</button>
+<p>My cloaking device works!</p>
